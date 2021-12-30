@@ -91,7 +91,7 @@ int admin_view()
             goBack = 1;
             break;
         default:
-            cout << "\n Invalid choice. Enter again";
+            cout << "\n valid choice. Enter again";
             getchar();
         }
         if (goBack == 1)
